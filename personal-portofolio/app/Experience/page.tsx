@@ -8,7 +8,7 @@ const Experience = () => {
       <div className='flex flex-col items-center'>
         <Navigation />
         <div className='container flex flex-col mt-20 justify-start'>
-          <h1 className='text-white text-4xl font-medium'>Experience</h1>
+          <h1 className='text-white text-5xl font-medium'>Experience</h1>
           <div className='mt-10 container w-2/3 mx-auto border-white'>
           <h1 className='text-white text-4xl font-courier'>Current Job</h1>
           <p className=' mt-10 font-courier text-white text-2xl'>

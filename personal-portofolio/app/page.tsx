@@ -23,8 +23,8 @@ const Page = () => {
                 <a href="https://github.com/azfaradhi">
                   <img 
                     src='/images/github.png'
-                    alt='github icon'
-                    className='w-7 border-white border-2'/>
+                    alt='social.png'
+                    className='w-7 mr-1'/>
                 </a>
               </div>
             </div>
@@ -37,18 +37,6 @@ const Page = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className='mt-10 container mt-10 w-2/3 mx-auto border-white'>
-          <h1 className='text-white text-4xl font-courier'>Current Job</h1>
-          <p className=' mt-10 font-courier text-white text-2xl'>
-            Frontend Developer at KAT OSKM ITB 2024
-          </p>
-        </div>
-        <div className='mt-10 container w-2/3 mx-auto border-white'>
-          <h1 className='text-white text-4xl font-courier'>Past Project</h1>
-          <p className=' mt-10 font-courier text-white text-2xl'>
-            Frontend Developer at KAT OSKM ITB 2024
-          </p>
         </div>
       </div>
     </div>

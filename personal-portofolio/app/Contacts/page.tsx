@@ -8,7 +8,7 @@ const Contacts = () => {
       <div className='flex flex-col items-center'>
         <Navigation />
         <div className='container flex flex-col mt-20 justify-start'>
-          <h1 className='text-white text-4xl font-medium'>Contact</h1>
+          <h1 className='text-white text-5xl font-medium'>Contact</h1>
         </div>
       </div>
     </div>
