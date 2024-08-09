@@ -20,7 +20,7 @@ const Project = () => {
                     </div>
 
                     <div className='ml-8 flex flex-1 items-center justify-center'>
-                        <img 
+                        <img
                         className='border-2 w-48 scale-125 h-auto object-cover rounded-lg shadow-md transition-transform transform hover:scale-150'
                         src="/images/mini-project.png"
                         alt="Project Image"
