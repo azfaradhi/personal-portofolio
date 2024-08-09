@@ -19,7 +19,8 @@ const config = {
     },
     extend: {
       fontFamily: {
-        courier: ['Courier New', 'Courier', 'monospace'], // Add Courier font stack here
+        courier: ['Courier New', 'Courier', 'monospace'],
+        sans: ['Helvetica','Arial','sans-serif']
       },
       keyframes: {
         "accordion-down": {

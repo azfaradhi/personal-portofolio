@@ -1,29 +1,34 @@
 import React from 'react'
-import Navigation from '@/components/Navigation'
-
+import Header from '@/components/Header'
 
 const Experience = () => {
   return (
-    <div className='bg-gradient-to-r from-[#291C2E] to-[#3B1A22] min-h-screen'>
-      <div className='flex flex-col items-center'>
-        <Navigation />
-        <div className='container flex flex-col mt-20 justify-start'>
-          <h1 className='text-white text-5xl font-medium'>Experience</h1>
-          <div className='mt-10 container w-2/3 mx-auto border-white'>
-          <h1 className='text-white text-4xl font-courier'>Current Job</h1>
-          <p className=' mt-10 font-courier text-white text-2xl'>
-            Frontend Developer at KAT OSKM ITB 2024
-          </p>
-        </div>
-        <div className='mt-10 container w-2/3 mx-auto border-white'>
-          <h1 className='text-white text-4xl font-courier'>Past Project</h1>
-          <p className=' mt-10 font-courier text-white text-2xl'>
-            Frontend Developer at KAT OSKM ITB 2024
-          </p>
-        </div>
+    <div className='bg-fixed bg-gradient-to-b from-gray-900 via-gray-800 to-blue-900 min-h-screen flex flex-col items-center'>
+      <Header />
+        <div className='container flex flex-col mt-20 px-4'>
+          <h1 className='text-white text-5xl font-medium mb-20'>Experience</h1>
+
+          <div className='w-full max-w-4xl bg-gray-800 bg-opacity-50 border-2 shadow-lg rounded-lg p-6'>
+            <div className='mb-8'>
+              <div className='text-white font-semibold text-2xl mb-4'>Current Job:</div>
+                <ul className='list-disc pl-6 space-y-2'>
+                  <li className='text-white text-lg'>Frontend Developer at IT OSKM ITB 2024</li>
+                  <li className='text-white text-lg'>Quality Control at KTOM</li>
+                </ul>
+            </div>
+
+            <div>
+              <div className='text-white font-semibold text-2xl mb-4'>Past Job:</div>
+                <ul className='list-disc pl-6 space-y-2'>
+                  <li className='text-white text-lg'>Problem Setter at IMPACT STEI ITB 2024</li>
+                  <li className='text-white text-lg'>Staff of Academics at BPA STEI-K 2023</li>
+                  <li className='text-white text-lg'>Logistic Division at Sandbox by IEEE ITB SB</li>
+                </ul>
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
   )
 }
 

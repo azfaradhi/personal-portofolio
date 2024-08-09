@@ -36,13 +36,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='mt-10 container mt-10 w-2/3 mx-auto border-white'>
+      <div className='mt-10 container w-2/3 mx-auto border-white'>
         <h1 className='text-white text-4xl font-courier'>Current Job</h1>
         <p className=' mt-10 font-courier text-white text-2xl'>
           Frontend Developer at KAT OSKM ITB 2024
         </p>
       </div>
-      <div className='mt-10 container mt-10 w-2/3 mx-auto border-white'>
+      <div className='mt-10 container w-2/3 mx-auto border-white'>
         <h1 className='text-white text-4xl font-courier'>Past Project</h1>
         <p className=' mt-10 font-courier text-white text-2xl'>
           Frontend Developer at KAT OSKM ITB 2024
